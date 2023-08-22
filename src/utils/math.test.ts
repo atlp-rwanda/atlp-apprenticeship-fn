@@ -1,0 +1,7 @@
+// src/utils/math.test.ts
+
+import { sum } from "./math";
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});
